@@ -30,10 +30,8 @@ wget https://github.com/destan19/OpenAppFilter/archive/master.zip -O OpenAppFilt
 unzip OpenAppFilter.zip
 cp -r OpenAppFilter-master/luci-app-oaf package
 
-wget https://github.com/ZeaKyX/luci-app-speedtest-web/archive/master.zip -O luci-app-speedtest-web.zip
-unzip luci-app-speedtest-web.zip
-cp -r luci-app-speedtest-web package
-
 wget https://github.com/muink/luci-app-netspeedtest/archive/master.zip -O luci-app-netspeedtest.zip
 unzip luci-app-netspeedtest.zip
-cp -r luci-app-netspeedtest package
+cp -r luci-app-netspeedtest-master package
+
+
