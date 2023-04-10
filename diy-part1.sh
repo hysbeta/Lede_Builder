@@ -17,7 +17,23 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
-# Add openclash
-wget https://github.com/vernesong/OpenClash/archive/master.zip
-unzip master.zip
+# Add customize apps
+wget https://github.com/vernesong/OpenClash/archive/master.zip -O OpenClash.zip
+unzip OpenClash.zip
 cp -r OpenClash-master/luci-app-openclash package
+
+wget https://github.com/sbwml/luci-app-alist/archive/master.zip -O luci-app-alist.zip
+unzip luci-app-alist.zip
+cp -r luci-app-alist-master/luci-app-alist package
+
+wget https://github.com/destan19/OpenAppFilter/archive/master.zip -O OpenAppFilter.zip
+unzip OpenAppFilter.zip
+cp -r OpenAppFilter-master/luci-app-oaf package
+
+wget https://github.com/ZeaKyX/luci-app-speedtest-web/archive/master.zip -O luci-app-speedtest-web.zip
+unzip luci-app-speedtest-web.zip
+cp -r luci-app-speedtest-web package
+
+wget https://github.com/muink/luci-app-netspeedtest/archive/master.zip -O luci-app-netspeedtest.zip
+unzip luci-app-netspeedtest.zip
+cp -r luci-app-netspeedtest package
