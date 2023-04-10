@@ -16,3 +16,8 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+
+# Add openclash
+wget https://github.com/vernesong/OpenClash/archive/master.zip
+unzip master.zip
+cp -r OpenClash-master/luci-app-openclash lede/package
