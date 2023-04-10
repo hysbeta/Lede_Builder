@@ -18,7 +18,12 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 # Add customize apps
-git clone https://github.com/vernesong/OpenClash package/OpenClash
-git clone https://github.com/sbwml/luci-app-alist package/alist
-git clone https://github.com/destan19/OpenAppFilter package/OpenAppFilter
-git clone https://github.com/muink/luci-app-netspeedtest.git package/luci-app-netspeedtest
+# git clone https://github.com/coolsnowwolf/lede
+# cd lede
+git clone --depth 1 --branch master --single-branch --no-checkout https://github.com/vernesong/OpenClash package/OpenClash
+git clone --depth 1 --branch master --single-branch --no-checkout https://github.com/sbwml/luci-app-alist package/alist
+git clone --depth 1 --branch master --single-branch --no-checkout https://github.com/destan19/OpenAppFilter package/OpenAppFilter
+git clone --depth 1 --branch master --single-branch --no-checkout https://github.com/muink/luci-app-netspeedtest package/luci-app-netspeedtest
+# ./scripts/feeds update -a
+# ./scripts/feeds install -a
+# make menuconfig
