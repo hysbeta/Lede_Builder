@@ -33,5 +33,3 @@ cp -r OpenAppFilter-master/luci-app-oaf package
 wget https://github.com/muink/luci-app-netspeedtest/archive/master.zip -O luci-app-netspeedtest.zip
 unzip luci-app-netspeedtest.zip
 cp -r luci-app-netspeedtest-master package
-
-
