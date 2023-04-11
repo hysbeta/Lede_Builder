@@ -21,7 +21,7 @@
 # git clone https://github.com/coolsnowwolf/lede
 # cd lede
 git clone --depth 1 --branch master --single-branch https://github.com/vernesong/OpenClash package/OpenClash
-git clone --depth 1 --branch master --single-branch https://github.com/sbwml/luci-app-alist package/alist
+# git clone --depth 1 --branch master --single-branch https://github.com/sbwml/luci-app-alist package/alist
 git clone --depth 1 --branch master --single-branch https://github.com/destan19/OpenAppFilter package/OpenAppFilter
 git clone --depth 1 --branch master --single-branch https://github.com/muink/luci-app-netspeedtest package/luci-app-netspeedtest
 # ./scripts/feeds update -a
