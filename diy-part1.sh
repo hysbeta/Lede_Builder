@@ -22,6 +22,7 @@
 # cd lede
 git clone --depth 1 --branch master --single-branch https://github.com/vernesong/OpenClash package/OpenClash
 git clone --depth 1 --branch master --single-branch https://github.com/kuoruan/openwrt-frp package/frp
+git clone --depth 1 --branch master --single-branch https://github.com/yichya/luci-app-xray package/luci-app-xray
 # ./scripts/feeds update -a
 # ./scripts/feeds install -a
 # make menuconfig
