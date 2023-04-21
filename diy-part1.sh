@@ -22,6 +22,7 @@
 # cd lede
 git clone --depth 1 --branch master --single-branch https://github.com/vernesong/OpenClash package/OpenClash
 git clone --depth 1 --branch master --single-branch https://github.com/kuoruan/openwrt-frp package/frp
+git clone --depth 1 --branch master --single-branch https://github.com/kuoruan/openwrt-v2ray.git package/v2ray-core
 #git clone --depth 1 --branch master --single-branch https://github.com/yichya/openwrt-xray package/openwrt-xray
 #git clone --depth 1 --branch master --single-branch https://github.com/yichya/openwrt-xray-geodata-cut package/openwrt-xray-geodata-cut
 #git clone --depth 1 --branch master --single-branch https://github.com/yichya/luci-app-xray package/luci-app-xray
