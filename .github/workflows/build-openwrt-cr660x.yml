@@ -21,7 +21,7 @@ on:
 
 env:
   REPO_URL: https://github.com/hysbeta/lede
-  REPO_BRANCH: b99d532
+  REPO_BRANCH: luci_24
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config_cr660x
   DIY_P1_SH: diy-part1.sh
